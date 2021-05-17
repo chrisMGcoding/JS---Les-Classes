@@ -1,0 +1,27 @@
+#!/bin/bash
+
+#lancement VSCode
+code .
+
+#création "index"
+touch index.html
+
+#création public
+mkdir public
+
+cd public
+
+mkdir IMG
+
+cd ../
+
+#création src
+mkdir src
+
+cd src
+
+mkdir JS
+
+cd JS
+
+touch main.js
